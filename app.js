@@ -75,25 +75,53 @@
 // console.log(nweNum);
 
 
-var totalCost = 1 + (3 * 4);
-console.log(totalCost);
+// var totalCost = 1 + (3 * 4);
+// console.log(totalCost);
 
 
-var resultOfComputation = ((2 * 4) * 4) + 1;
-console.log(resultOfComputation);
+// var resultOfComputation = ((2 * 4) * 4) + 1;
+// console.log(resultOfComputation);
 
-// Concatenation//
-var message = "Thanks, ";
-var userName = " ";
-// var userInput = userName;
-var alas = "!";
-var welcomeAlert = prompt(message + userName + alas + " Please Enter Your Name");
+// // Concatenation//
+// var message = "Thanks, ";
+// var userName = " ";
+// // var userInput = userName;
+// var alas = "!";
+// var welcomeAlert = prompt(message + userName + alas + " Please Enter Your Name");
 
-if (welcomeAlert === null) {
-    document.write("<h1>Sign up Failed!!</h1>")
-}
-else{
-    document.write("Hello "+" "+ userName + alas)
-    document.write( welcomeAlert);
-}
+// if (welcomeAlert === null) {
+//     document.write("<h1>Sign up Failed!!</h1>")
+// }
+// else{
+//     document.write("Hello "+" "+ userName + alas)
+//     document.write( welcomeAlert);
+// }
+// alert();
 
+// alert('5' + '5 is equal to ' + 55 )
+
+// var question = "Your Religion";
+// var gender = "Your gender is";
+// var spedc = prompt(question + " " + gender);
+
+// var peopleNum= window.prompt("Kitne Adami the.");
+// console.log(peopleNum);
+// var userResponse = peopleNum +6;
+// document.write(userResponse);
+
+/**Suppose you code a prompt that asks, "Where does the Pope live
+If the user answers correctly, you display an alert congratulating him.
+This is the code. */
+// var x = prompt('Quaid-e-azam ka mazar kidhr hai?');
+// if(x === "Saddar"){
+//     alert('Ustaad G sahi Btya')
+// };
+
+// var x = prompt('Poyo oil ki dukan Kidhr ha?');
+// if(x === 'Jauhaur Mour'){
+//     alert('3 pe dum 4 pe ghoom poyo oil!!!');
+// }
+// var x = prompt('What country  do you live?');
+// if (x === 'Pakistan') {
+//     alert('Correct!!')
+// };
