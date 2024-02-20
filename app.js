@@ -61,9 +61,39 @@
 // // console.log(Input);
 
 
-var question = "Remainder ko plus krna ha";
-alert(question);
-var num = 29;
-var num1 = 5;
-var newNum = (num % num1) * 2 / 20 ;
-console.log(newNum);
+// var question = "Remainder ko plus krna ha";
+// alert(question);
+// var num = 29;
+// var num1 = 5;
+// var newNum = (num % num1) * 2 ;
+// console.log(newNum);
+
+
+
+// var constantValue = 1;
+// var nweNum = constantValue++;
+// console.log(nweNum);
+
+
+var totalCost = 1 + (3 * 4);
+console.log(totalCost);
+
+
+var resultOfComputation = ((2 * 4) * 4) + 1;
+console.log(resultOfComputation);
+
+// Concatenation//
+var message = "Thanks, ";
+var userName = " ";
+// var userInput = userName;
+var alas = "!";
+var welcomeAlert = prompt(message + userName + alas + " Please Enter Your Name");
+
+if (welcomeAlert === null) {
+    document.write("<h1>Sign up Failed!!</h1>")
+}
+else{
+    document.write("Hello "+" "+ userName + alas)
+    document.write( welcomeAlert);
+}
+
