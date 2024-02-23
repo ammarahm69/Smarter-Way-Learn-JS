@@ -87,13 +87,13 @@
 // var userName = " ";
 // // var userInput = userName;
 // var alas = "!";
-// var welcomeAlert = prompt(message + userName + alas + " Please Enter Your Name");
+// var welcomeAlert = prompt(" Please Enter Your Name");
 
 // if (welcomeAlert === null) {
 //     document.write("<h1>Sign up Failed!!</h1>")
 // }
 // else{
-//     document.write("Hello "+" "+ userName + alas)
+//     document.write("Hello "+ message +" "+ userName + alas)
 //     document.write( welcomeAlert);
 // }
 // alert();
@@ -125,3 +125,27 @@ This is the code. */
 // if (x === 'Pakistan') {
 //     alert('Correct!!')
 // };
+
+// var x = prompt('What country does Pope live?');
+// var correctAnswer = 'Vaticain';
+// if(x === correctAnswer){
+//     alert('Correct Answer')
+// }
+// else{
+//     alert('Wrong Answer')
+// };
+var x = prompt("Enter your name");
+var b = prompt('Your Age'); 
+var userInput = x
+var userAge = b
+var age = 18
+if (x === '') {
+    alert('Please Enter your Name')
+    alert ('Please enter your age')
+}
+else{
+    alert(`Tatti ! ${userInput}`)
+    alert("Age  is " + userAge );
+    document.write("Name is " +x);
+    document.write(" Your age is  " + b);
+}
