@@ -199,10 +199,35 @@ Create a BMI (Body Mass Index) calculator. If the BMI is above 30, output a mess
 
 // Car Speed Tracker//
 
-let speedOfCar = 10;
-if (speedOfCar > 80){
-    alert ('OverSpeeding')
-}
-else {
-    alert('You are at normal Speed')
-}
+// let speedOfCar = 10;
+// if (speedOfCar > 80){
+//     alert ('OverSpeeding')
+// }
+// else {
+//     alert('You are at normal Speed')
+// }
+
+
+// var age= 19;
+// var weight = 50 ;
+// var gender  = 'male' ;
+// var time = 6 ;
+// if (age > 18 && weight >= 49  && gender === 'male' ){
+//     alert('You can go for US');
+// }
+// else{
+//     alert('You are not eligibile');
+// }
+
+// var age = prompt('Enter your age! (Only 18+)');
+// var userAge = age;
+// var bagWeight = prompt('What your  bag weight? (Bag weight 1kg till 50 kg )')
+// var userBagWeight = bagWeight;
+
+
+// if(age >= 18 && bagWeight <= 50){
+// alert('You can go for U.S');
+// }
+// else{
+//     alert('You are not eligible');
+// }
