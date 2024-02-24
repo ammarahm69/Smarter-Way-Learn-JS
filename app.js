@@ -134,18 +134,75 @@ This is the code. */
 // else{
 //     alert('Wrong Answer')
 // };
-var x = prompt("Enter your name");
-var b = prompt('Your Age'); 
-var userInput = x
-var userAge = b
-var age = 18
-if (x === '') {
-    alert('Please Enter your Name')
-    alert ('Please enter your age')
+// var x = prompt("Enter your name");
+// var b = prompt('Your Age'); 
+// var userInput = x
+// var userAge = b
+// var age = 18
+// if (x === '') {
+//     alert('Please Enter your Name')
+//     alert ('Please enter your age')
+// }
+// else{
+//     alert(`Tatti ! ${userInput}`)
+//     alert("Age  is " + userAge );
+//     document.write("Name is " +x);
+//     document.write(" Your age is  " + b);
+// }
+
+
+// var x = prompt('Where dooes the pope live');
+// if(x === 'Lahore'){
+//     alert('Correct')
+// }
+// else{
+//     alert('Wrong Answer')
+// }
+
+// Weight Problem//
+// var weight = 400;
+// var time = 5 ; 
+// if (weight > 300 && time < 6){
+//     alert('Come to try out')
+// }
+// else {
+//     alert ('You can go outside')
+// };
+
+/*/Temperature Converter:
+Write a program that converts temperature from Fahrenheit to Celsius. If the temperature in Fahrenheit is above 90 degrees and the converted temperature in Celsius is below 30 degrees, the program should output a warning message suggesting it's too hot./*/
+
+// var tempInFareheit = 91;
+// var tempInCelsius = 29;
+// if (tempInFareheit > 90 && tempInCelsius < 30 ){
+//     alert('It,s too hot!')
+// }
+// else{
+//     alert('You are in room temperature');
+// }
+
+
+/*/BMI Calculator:
+Create a BMI (Body Mass Index) calculator. If the BMI is above 30, output a message indicating the person is obese.*/
+
+
+// var x = prompt('Enter your weight');
+// userInput = x
+// var BMI = 61;
+// // var LMI = 49 ;
+// if (BMI > 60){
+//     alert('Tum bhot mote ho')
+// }
+// else{
+//     alert('Patele ho tum abhi')
+// }
+
+// Car Speed Tracker//
+
+let speedOfCar = 10;
+if (speedOfCar > 80){
+    alert ('OverSpeeding')
 }
-else{
-    alert(`Tatti ! ${userInput}`)
-    alert("Age  is " + userAge );
-    document.write("Name is " +x);
-    document.write(" Your age is  " + b);
+else {
+    alert('You are at normal Speed')
 }
