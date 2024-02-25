@@ -231,3 +231,32 @@ Create a BMI (Body Mass Index) calculator. If the BMI is above 30, output a mess
 // else{
 //     alert('You are not eligible');
 // }
+// var firstName = 'Bilawal';
+// var lastName = ' Bhutto'
+// console.log(firstName + ' '+ lastName);
+
+
+// Calculate the student marks//
+var y = prompt('Enter your name');
+var userName = y;
+
+
+var z = prompt ('Enter your Roll No:');
+var userRollNo  = z;
+
+
+document.write(` Hi ! ${userName}. Your roll number is ${userRollNo} .`)
+var x = prompt ('Enter your marks');
+var marks = x;
+if (marks > 90){
+   document.write('Congratulation you got A-one Grade!!')
+}
+else if (marks >= 70){
+    document.write('You got B-grade!!');
+}
+else if(marks > 50 ){
+    document.write('You got C grade');
+}
+else if (marks < 50 ){
+    document.write('You Failed !!');
+}
