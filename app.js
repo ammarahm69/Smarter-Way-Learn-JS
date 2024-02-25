@@ -243,22 +243,25 @@ var y = prompt('Enter your name');
 var userName = y;
 
 
-var z = prompt ('Enter your Roll No:');
-var userRollNo  = z;
+var z = prompt('Enter your Roll No:');
+var userRollNo = z;
 
 
 document.write(` Hi ! ${userName}. Your roll number is ${userRollNo} .`)
-var x = prompt ('Enter your marks');
+var x = prompt('Enter your marks');
 var marks = x;
-if (marks > 90){
-   document.write('Congratulation you got A-one Grade!!')
+if (marks >= 90) {
+    document.write('Congratulation you got A-one Grade!!')
 }
-else if (marks >= 70){
-    document.write('You got B-grade!!');
+else if (marks >= 70) {
+    document.write('You got A-grade!!');
 }
-else if(marks > 50 ){
+else if (marks >= 60) {
+    document.write('You got B grade');
+}
+else if (marks <= 50) {
     document.write('You got C grade');
 }
-else if (marks < 50 ){
-    document.write('You Failed !!');
+else if (marks <= 40) {
+    document.write('You Falied !!');
 }
