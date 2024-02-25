@@ -238,30 +238,51 @@ Create a BMI (Body Mass Index) calculator. If the BMI is above 30, output a mess
 
 // Calculate the student marks//
 
-alert('Check your Grade here')
-var y = prompt('Enter your name');
-var userName = y;
+// alert('Check your Grade here')
+// var y = prompt('Enter your name');
+// var userName = y;
 
 
-var z = prompt('Enter your Roll No:');
-var userRollNo = z;
+// var z = prompt('Enter your Roll No:');
+// var userRollNo = z;
 
 
-document.write(` Hi ! ${userName}. Your roll number is ${userRollNo} .`)
-var x = prompt('Enter your marks');
-var marks = x;
-if (marks >= 90) {
-    document.write('Congratulation you got A-one Grade!!')
+// document.write(` Hi ! ${userName}. Your roll number is ${userRollNo} .`)
+// var x = prompt('Enter your marks');
+// var marks = x;
+// if (marks >= 90) {
+//     document.write('Congratulation you got A-one Grade!!')
+// }
+// else if (marks >= 70) {
+//     document.write('You got A-grade!!');
+// }
+// else if (marks >= 60) {
+//     document.write('You got B+ grade');
+// }
+// else if (marks <= 50) {
+//     document.write('You got C grade');
+// }
+// else if (marks <= 40) {
+//     document.write('You Falied !!');
+// }
+alert('Which company car you like? Enter name to see the specification of car');
+var a = prompt('Enter the company name (Only company name) ');
+var userCompany = a;
+
+if (userCompany === 'Honda' || userCompany === 'honda'){
+    document.write(`<h1  style="color: blue; font-family: Arial; text-align : center">${a} is known for its comfort level . </h1>`)
 }
-else if (marks >= 70) {
-    document.write('You got A-grade!!');
+// else if (userCompany === ' '){
+//     document.write("Sorry you does'nt write anything");
+// }
+else if (userCompany === 'Suzuki'|| userCompany === 'suzuki'){
+    document.write(`<h1  style="color: brown; font-family: Arial; text-align : center">${a} is known for its long lasting cars . </h1>`)
+
 }
-else if (marks >= 60) {
-    document.write('You got B+ grade');
+else if (userCompany === 'Toyota'|| userCompany === 'toyota'){
+    document.write(`<h1  style="color: #326273; font-family: Arial; text-align : center">${a} is known for its fuel average & also for it price rates in Pakistan . </h1>`)
+
 }
-else if (marks <= 50) {
-    document.write('You got C grade');
-}
-else if (marks <= 40) {
-    document.write('You Falied !!');
+else{
+    document.write('<h3 style = "color:red"; font-family: Arial;>Invaild</h3>  Only you can know about Honda , Toyota & Suzuki');
 }
