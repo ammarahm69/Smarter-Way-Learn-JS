@@ -237,6 +237,8 @@ Create a BMI (Body Mass Index) calculator. If the BMI is above 30, output a mess
 
 
 // Calculate the student marks//
+
+alert('Cheack your Grade here')
 var y = prompt('Enter your name');
 var userName = y;
 
